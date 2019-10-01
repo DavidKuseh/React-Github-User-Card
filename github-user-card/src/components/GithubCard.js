@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const UserCard = styled.div`
     background-color: #347FC4;
     width: 400px;
-    margin: 10px;
+    margin: 20px;
     padding: 15px;
     border-radius: 20px;
 
@@ -14,7 +14,6 @@ const UserCard = styled.div`
         border-radius: 30px;
     }
 `
-
 
 const GithubCard = props => {
     return (

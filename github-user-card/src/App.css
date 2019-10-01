@@ -1,11 +1,14 @@
 .App {
   text-align: center;
   background-color: #7980AD;
+  margin: auto;
 }
 
 div .App {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
+
 }
 
 .App-logo {
