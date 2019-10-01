@@ -31,10 +31,8 @@ class App extends React.Component {
     
     return (
       <div className="App">
-        <div>
          <GithubCard users = {this.state.users} />
          {this.state.followers.map(person => <GithubList key={person.id} login={person.login}  />)}
-        </div>
       </div>
     );
   }

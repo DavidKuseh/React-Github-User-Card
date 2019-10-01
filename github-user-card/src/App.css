@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #7980AD;
+}
+
+div .App {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
